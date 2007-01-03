@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------------
+ImaginView README
+--------------------------------------------------------------------------------
+# License	: GNU General Public License <http://www.gnu.org/copyleft/gpl.html>
+# Author 	: Frank Rosquin <frank@nullsense.net>
+# URL		: http://www.nullsense.net/development/imaginview/
+--------------------------------------------------------------------------------
+
+ImaginView is a php class to build a photo gallery. 
+It's small, simple, and easy to implement.
+
+--------------------------------------------------------------------------------
+
+## Content ##
+1.	Introduction
+2.	File List
+3.	Getting started
+
+--------------------------------------------------------------------------------
+1. Introduction
+
+ImaginView was written because the gallery scripts I found on the net where in
+either of 3 categories:
+1) not "scripts" at all, but rather just templates. you had to create the 
+	thumbnails yourself.
+
+2) Bloated. Don't get me wrong, galleries such as coppermine are nice, just WAY
+	overkill for what I needed.
+
+3) Crap.
+
+So I decided to write something to fill the gap. The result was ImaginView.
+It aims to provide the basics of a gallery script, and do it well. Imaginview
+has no admin section, no upload, no comment system, (although I plan to include
+a sceleton "admin" page in the package for reference) it just creates and caches
+thumbnails for images in a recursive directory structure.
+
+ImaginView is 100% template based, so you don't need to edit the class to change
+the look of your gallery. It uses a header and a footer file to allow for easy 
+integration into your existing site.
+
+--------------------------------------------------------------------------------
+2. File List
+
+INSTALL 						Has a line that points to this file.
+
+README							This File
+
+class.TemplatePower.inc.php  	The TemplatePower class, included for your 
+								comfort. The homepage of TemplatePower is 
+								http://templatepower.codocad.com/
+
+class.imaginview.php			The ImaginView class file. this is where all the
+								code resides. You do NOT need to edit this file.
+								
+folder.jpg  					A sample folder image, included for your comfort.
+
+footer.php  					A sample footer file.
+
+gpl.txt  						A copy of the GNU General Public License.
+
+header.php  					A sample header file.
+
+imaginview.tpl  				The ImaginView template. This is where ALL the hmtl 
+								code resides. If you want to change the way the
+								gallery looks, edit this file.
+
+index.php						The index.php. Here you set all configuration
+								settings, and start the gallery.
+
+
+--------------------------------------------------------------------------------
+3. Getting started
+
+1) unpack the files.
+2) create the directory where your gallery will reside in your document root. 
+3) put all the imaginview files in that directory.
+4) edit the $conf[] settings in index.php
+5) put some images and folders in this directory
+6) point your browser to your gallery.
+7) done!
