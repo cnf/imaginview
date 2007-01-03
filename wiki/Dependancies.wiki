@@ -1,0 +1,7 @@
+#labels Dependancies,Phase-Requirements,Featured
+= Dependancies =
+
+  * PHP (ofcourse)
+  * GDLib (for thumbnail creation)
+  * [http://templatepower.codocad.com/download.php TemplatePower] (templating engine)
+
