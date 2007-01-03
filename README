@@ -3,7 +3,8 @@ ImaginView README
 --------------------------------------------------------------------------------
 # License	: GNU General Public License <http://www.gnu.org/copyleft/gpl.html>
 # Author 	: Frank Rosquin <frank@nullsense.net>
-# URL		: http://www.nullsense.net/development/imaginview/
+# URL		: http://www.nullsense.net/project/imaginview
+# Wiki      : http://code.google.com/p/imaginview/w/list
 --------------------------------------------------------------------------------
 
 ImaginView is a php class to build a photo gallery. 
