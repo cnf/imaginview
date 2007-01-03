@@ -1,5 +1,5 @@
 #summary Where do we go from here...
-#labels Phase-Planning
+#labels Phase-Planning,Featured
 
 = Goal =
   * Exif data
