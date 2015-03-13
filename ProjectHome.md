@@ -1,0 +1,3 @@
+You might ask “Why did you create YET ANOTHER gallery script? Aren’t there plenty of them out there?” Yes, there are. But none that suited my needs at the time. ImaginView is a simple class. It uses TemplatePower as a templating engine, which makes it very easy to skin. It can handle txt/html as well as php files as header and footer includes. And above all, it’s a class, which makes it easy to integrate into your existing platform.
+
+It has no admin functionality, no upload functionality, nothing except a recursive gallery with automatic thumbnail generation and caching. You upload a new album (A dir with photo files in it) to your gallery dir, and that’s it.
